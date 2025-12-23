@@ -89,8 +89,13 @@ const toggleApp = (app) => {
                 </button>
             </div>
         ))}
-        <Tooltip id='dock-tooltip' place='top' className='tooptip' />
-    </div>
+        <Tooltip
+        id="dock-tooltip"
+        place="top"
+        variant="light"
+        className="tooltip"
+        />
+        </div>
     </section>
 
 }
