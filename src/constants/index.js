@@ -291,7 +291,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://devsrkportfolio.vercel.app/",
+          href: "https://srk-portfolio.vercel.app/",
           position: "top-20 left-20",
         },
 
