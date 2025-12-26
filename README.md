@@ -7,15 +7,13 @@ Designed to demonstrate advanced frontend engineering concepts such as window li
 
 ## ✨ Features
 
-- macOS-style window system (Open, Close, Minimize, Maximize)
+- macOS-style window system
 - Draggable windows with dynamic z-index management
 - Smooth, state-driven animations using GSAP
 - Centralized and predictable window state management
 - Dock-style application interactions
 - Responsive and performance-focused UI
 - Clean, scalable project architecture
-
-This is not a static portfolio — it behaves like an operating system.
 
 ---
 
@@ -24,7 +22,6 @@ This is not a static portfolio — it behaves like an operating system.
 ### Window Management
 - Each window maintains its own lifecycle state
 - Focus and stacking handled via z-index tracking
-- Minimize, maximize, and restore behaviors mirror macOS logic
 
 ### State Management
 - Global application state handled using Zustand
