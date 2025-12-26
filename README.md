@@ -1,16 +1,64 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A macOS-inspired interactive portfolio that simulates a desktop-like environment directly in the browser.  
+Designed to demonstrate advanced frontend engineering concepts such as window lifecycle management, animation orchestration, and global state control.
 
-Currently, two official plugins are available:
+🔗 **Repository**: https://github.com/raghulari/portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- macOS-style window system (Open, Close, Minimize, Maximize)
+- Draggable windows with dynamic z-index management
+- Smooth, state-driven animations using GSAP
+- Centralized and predictable window state management
+- Dock-style application interactions
+- Responsive and performance-focused UI
+- Clean, scalable project architecture
 
-## Expanding the ESLint configuration
+This is not a static portfolio — it behaves like an operating system.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Architecture Overview
+
+### Window Management
+- Each window maintains its own lifecycle state
+- Focus and stacking handled via z-index tracking
+- Minimize, maximize, and restore behaviors mirror macOS logic
+
+### State Management
+- Global application state handled using Zustand
+- Immutable state updates via Immer
+- Simple, scalable, and debuggable state flow
+
+### Animations
+- Entry and exit transitions powered by GSAP
+- Drag interactions implemented using `gsap/Draggable`
+- Animations are driven by application state, not direct DOM manipulation
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|--------|------------|
+| Framework | React |
+| State Management | Zustand + Immer |
+| Animations | GSAP |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/        # Reusable UI components
+├── windows/           # Individual window views
+├── store/             # Zustand state stores
+├── constants/         # Window configuration & static data
+├── hooks/             # Custom React hooks
+└── styles/            # Global styles
