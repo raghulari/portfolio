@@ -3,8 +3,6 @@
 A macOS-inspired interactive portfolio that simulates a desktop-like environment directly in the browser.  
 Designed to demonstrate advanced frontend engineering concepts such as window lifecycle management, animation orchestration, and global state control.
 
-🔗 **Repository**: https://github.com/raghulari/portfolio
-
 ---
 
 ## ✨ Features
