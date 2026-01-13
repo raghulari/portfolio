@@ -13,7 +13,7 @@ function Contact() {
          <img src="/images/srk.jpg" alt="srk" className="w-20 rounded-full" />
 
          <h3>Let's Connect</h3>
-         <p>Got an idea? A bug to squash? or just wanna tech talk? I'm in</p>
+         <p>Where innovation becomes reality. I’m in.</p>
          <p>raghularivalagan.cs@gmail.com</p>
          <ul>
             {socials.map(({id, bg, link, icon, text}) => (

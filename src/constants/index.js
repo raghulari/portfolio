@@ -102,7 +102,7 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "TypeScript"],
+    items: ["React.js"],
   },
 
   {
@@ -115,7 +115,7 @@ const techStack = [
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB"],
   },
   {
     category: "Dev Tools",
@@ -124,6 +124,10 @@ const techStack = [
   {
     category: "Languages",
     items: ["JavaScript", "Java"],
+  },
+  {
+  category: "Cloud & Deployment",
+  items: ["AWS EC2", "Vercel", "Nginx", "Linux"]
   }
 ];
 
